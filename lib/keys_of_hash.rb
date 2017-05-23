@@ -3,9 +3,9 @@ class Hash
     # code goes here
     array = []
       self.collect {|x, y|
-          if arguments.include?(y)
-            array.push(x)
-          end
+        if arguments.include?(y)
+          array.push(x)
+        end
       }
     array
   end
